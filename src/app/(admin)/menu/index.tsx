@@ -13,7 +13,7 @@ export default function MenuScreen() {
   }
   return (
     <FlatList
-      data={products}
+      data={data}
       renderItem={({ item }) => <ProductListItem product={item} />}
       numColumns={2}
       contentContainerStyle={{ gap: 10, padding: 10 }}
